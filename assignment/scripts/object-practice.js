@@ -44,7 +44,10 @@ console.log(me.favThreeFoods[2]); // <-- this way works well bc the variable is 
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
+console.log('My current shoe count:', me.shoeCount);
+// First iteration that worked-->    me.shoeCount++;
+me.shoeCount = 7;
+console.log('Got a new pair! Now i have this many shoes:', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -52,3 +55,6 @@ console.log(me.favThreeFoods[2]); // <-- this way works well bc the variable is 
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'green';
+console.log('Also, want to add my fave color:', me.favoriteColor);
+console.log('All about me:', me);
